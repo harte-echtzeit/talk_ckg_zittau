@@ -1,0 +1,32 @@
+:REVEAL_PROPERTIES:
+#+REVEAL_THEME: moon
+#+OPTIONS: timestamp:nil toc:1 num:nil
+#+REVEAL_INIT_OPTIONS: slideNumber:true
+:END:
+
+
+#+TITLE: Quelloffene Musik - let's code a beat
+#+AUTHOR: harte echtzeit
+#+DATE: <2024-09-02 Mo>
+
+
+* Was ist live coding?
+** allgemein
+   1. type > interpret > action
+   2. debugging auf der Bühne
+   2. musik, visuals oder physische Aktion als sirektes ergebnis
+** Algorave
+** quelloffenheit auf allen Ebenen
+** Beispiele
+* Tidal Cycles
+Eine Haskell-basierte Live-coding Sprache
+#+BEGIN_SRC emacs-lisp
+   ;;; set Org-reveal parameters for presentations
+(setq org-reveal-root "file:///home/chrs/Nextcloud/Documents/notizen/org_files/presentations/reveal.js_master")
+#+END_SRC
+- and more bullets
+- and even more..
+* Gravitationswellen
+** was?
+** wie wird daraus Musik
+** let's do techno in 5 minutes

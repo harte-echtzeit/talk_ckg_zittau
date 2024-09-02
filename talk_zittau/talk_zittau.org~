@@ -1,0 +1,28 @@
+:REVEAL_PROPERTIES:
+#+REVEAL_THEME: moon
+#+OPTIONS: timestamp:nil toc:1 num:nil
+#+REVEAL_INIT_OPTIONS: slideNumber:true
+:END:
+
+
+#+TITLE: Org-Reveal test
+#+AUTHOR: chrs
+#+DATE: <2022-02-17 Do> 05:23
+
+
+* slide 1 heading
+** sub heading
+   1. neu
+   2. alt
+** another one with
+*** sub-sub
+*** and sub-sub 2
+* slide 2
+ - here comes some code
+
+#+BEGIN_SRC emacs-lisp
+   ;;; set Org-reveal parameters for presentations
+(setq org-reveal-root "file:///home/chrs/Nextcloud/Documents/notizen/org_files/presentations/reveal.js_master")
+#+END_SRC
+- and more bullets
+- and even more..

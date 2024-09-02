@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Org-Reveal test</title>
+<meta name="author" content="(chrs)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="file:///home/chrs/Nextcloud/Documents/notizen/org_files/presentations/reveal.js_master/dist/reveal.css"/>
+
+<link rel="stylesheet" href="file:///home/chrs/Nextcloud/Documents/notizen/org_files/presentations/reveal.js_master/dist/theme/moon.css" id="theme"/>
+
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">Org-Reveal test</h1><h2 class="author">chrs</h2><h2 class="date"><span class="timestamp-wrapper"><span class="timestamp">&lt;2022-02-17 Do&gt; </span></span> 12:23</h2>
+</section>
+<section id="sec-table-of-contents"><div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#/slide-orgeb65514">slide 1 heading</a></li>
+<li><a href="#/slide-orgb5036ec">slide 2</a></li>
+</ul>
+</div>
+</div>
+</section>
+
+
+
+<section>
+<section id="slide-orgeb65514">
+<h2 id="orgeb65514">slide 1 heading</h2>
+<div class="outline-text-2" id="text-orgeb65514">
+</div>
+</section>
+<section id="slide-org790021d">
+<h3 id="org790021d">sub heading</h3>
+<ol>
+<li>neu</li>
+<li>alt</li>
+
+</ol>
+</section>
+<section id="slide-org3ceb527">
+<h3 id="org3ceb527">another one with</h3>
+<div class="outline-text-3" id="text-org3ceb527">
+</div>
+</section>
+<section id="slide-org9b9fb98">
+<h4 id="org9b9fb98">sub-sub</h4>
+</section>
+<section id="slide-orgd6439a0">
+<h4 id="orgd6439a0">and sub-sub 2</h4>
+</section>
+</section>
+<section>
+<section id="slide-orgb5036ec">
+<h2 id="orgb5036ec">slide 2</h2>
+<ul>
+<li>here comes some code</li>
+
+</ul>
+
+<div class="org-src-container">
+
+<pre  class="src src-emacs-lisp"   ><code trim>   ;;; set Org-reveal parameters for presentations
+(setq org-reveal-root "file:///home/chrs/Nextcloud/Documents/notizen/org_files/presentations/reveal.js_master")
+</code></pre>
+</div>
+</section>
+</section>
+</div>
+</div>
+<script src="/home/chrs/Nextcloud/Documents/notizen/org_files/presentations/reveal.js_master/dist/reveal.js"></script>
+<script src="file:///home/chrs/Nextcloud/Documents/notizen/org_files/presentations/reveal.js_master/plugin/markdown/markdown.js"></script>
+<script src="file:///home/chrs/Nextcloud/Documents/notizen/org_files/presentations/reveal.js_master/plugin/zoom/zoom.js"></script>
+<script src="file:///home/chrs/Nextcloud/Documents/notizen/org_files/presentations/reveal.js_master/plugin/notes/notes.js"></script>
+
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+plugins: [RevealMarkdown, RevealZoom, RevealNotes],
+slideNumber:true
+});
+
+</script>
+</body>
+</html>

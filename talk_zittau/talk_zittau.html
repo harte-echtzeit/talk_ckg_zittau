@@ -24,9 +24,12 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents" role="doc-toc">
 <ul>
-<li><a href="#/slide-org092cbb1">Was ist live coding?</a></li>
-<li><a href="#/slide-org2e1a980">Tidal Cycles</a></li>
-<li><a href="#/slide-orgdb8139e">Gravitationswellen</a></li>
+<li><a href="#/slide-org09c711e">test hydra</a></li>
+<li><a href="#/slide-org3919da6">Was ist live coding?</a></li>
+<li><a href="#/slide-org7636378">Musik machen</a></li>
+<li><a href="#/slide-org115002a">Gravitationswellen</a></li>
+<li><a href="#/slide-org2e55620">Links und Refs</a></li>
+<li><a href="#/slide-org8e9e1e8">Kontakt</a></li>
 </ul>
 </div>
 </div>
@@ -35,63 +38,162 @@
 
 
 <section>
-<section id="slide-org092cbb1">
-<h2 id="org092cbb1">Was ist live coding?</h2>
-<div class="outline-text-2" id="text-org092cbb1">
-</div>
-</section>
-<section id="slide-org987be0d">
-<h3 id="org987be0d">allgemein</h3>
-<ol>
-<li>type &gt; interpret &gt; action</li>
-<li>debugging auf der Bühne</li>
-<li>musik, visuals oder physische Aktion als sirektes ergebnis</li>
-
-</ol>
-</section>
-<section id="slide-org0073637">
-<h3 id="org0073637">Algorave</h3>
-</section>
-<section id="slide-org38b2562">
-<h3 id="org38b2562">quelloffenheit auf allen Ebenen</h3>
-</section>
-<section id="slide-org5a06092">
-<h3 id="org5a06092">Beispiele</h3>
+<section id="slide-org09c711e">
+<h2 id="org09c711e">test hydra</h2>
+<script> var hydra = new Hydra({ detectAudio: false }) osc(4, 0.1, 1.2).out() </script>
 </section>
 </section>
 <section>
-<section id="slide-org2e1a980">
-<h2 id="org2e1a980">Tidal Cycles</h2>
+<section id="slide-org3919da6">
+<h2 id="org3919da6">Was ist live coding?</h2>
+<div class="outline-text-2" id="text-org3919da6">
+</div>
+</section>
+<section id="slide-org751b333">
+<h3 id="org751b333">allgemein</h3>
+<p>
+debugging als Kunstform&#x2026;
+</p>
+<ul>
+<li>direkte Ausgabe von Musik, Visuals oder physischer Aktion (z.B. MIDI) als Ziel</li>
+<li>type &gt;&gt; interpret &gt;&gt; action</li>
+<li>Kulturtechnik, kein Genre</li>
+<li>radiakle Offenheit &gt; keine Geheimnisse vor dem Publikum</li>
+
+</ul>
+</section>
+<section id="slide-org10016d5">
+<h4 id="org10016d5">Beispiel Musik</h4>
+<iframe width="900" height="500" src="https://www.youtube.com/embed/ezSdPIKkp98?si=-Owr7uipGuBTJfHO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</section>
+<section id="slide-org7d934e9">
+<h4 id="org7d934e9">Beispiel Visuals</h4>
+<iframe width="900" height="500" src="https://www.youtube.com/embed/ql31mN1EXlw?si=uqJuFuyyYU75aFj8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</section>
+<section id="slide-orgae19854">
+<h4 id="orgae19854">Beispiel Tanz</h4>
+<iframe width="900" height="500" src="https://www.youtube.com/embed/hoV01_P6PGw?si=m192IJXerFtMoaDa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</section>
+<section id="slide-org239e874">
+<h3 id="org239e874">Algorave</h3>
+<ul>
+<li>ein wesentliches Genre -&gt; Techno mit Code</li>
+<li>ca. 10 Jahre alt</li>
+<li>TOPLAP-Manifesto ist hochgradig empowerment
+<ul>
+<li>"Obscurantism is dangerous. Show us your screens."</li>
+<li>"Programs are instruments that can change themselves."</li>
+
+</ul></li>
+<li><a href="https://tidalcycles.org/docs/around_tidal/toplap_manifesto/">link</a></li>
+
+</ul>
+</section>
+<section id="slide-org4826b62">
+<h3 id="org4826b62">Quelloffenheit auf allen Ebenen</h3>
+<ul>
+<li>tools -&gt; z.B. Tidal Cycles, Strudel, Hydra, P5Js,</li>
+<li>code -&gt; viele Performances auf github u.ä.</li>
+<li>Live Performance</li>
+<li>Austausch zwischen Künstler*innen (vor Ort und im Web)</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org7636378">
+<h2 id="org7636378">Musik machen</h2>
+<div class="outline-text-2" id="text-org7636378">
+</div>
+</section>
+<section id="slide-orgcad1670">
+<h3 id="orgcad1670">Tidal Cycles</h3>
 <p>
 Eine Haskell-basierte Live-coding Sprache
 </p>
 <div class="org-src-container">
 
-<pre  class="src src-emacs-lisp"   ><code trim>   ;;; set Org-reveal parameters for presentations
-(setq org-reveal-root "file:///home/chrs/Nextcloud/Documents/notizen/org_files/presentations/reveal.js_master")
+<pre  class="src src-haskell"   ><code trim> d1 $ fast 1
+$ s "bd sd bd sd"
+# gain 0.9
+# room 0.4
 </code></pre>
 </div>
 <ul>
-<li>and more bullets</li>
-<li>and even more..</li>
+<li>sehr kompakt und gut live zu spielen</li>
+<li>braucht Softwaresysnthesizer als Backend (typisch Supercollider)</li>
+<li>große Bibiliothek aus freien Samples und Synthesizern verfügbar</li>
+
+</ul>
+</section>
+<section id="slide-org1d5056f">
+<h3 id="org1d5056f">Strudel</h3>
+<ul>
+<li>JavaScript-Variante von TC</li>
+<li>läuft im Browser mit WebAudio als Backend</li>
+<li>gut für den Einstieg -&gt; gute Visualisierungen und keine Installation</li>
+
+</ul>
+<iframe src="https://strudel.cc/#c291bmQoIltiZCBzZCBiZCBzZF0sIGhoKjgiKS5ldmVyeSgyLCB4PT54LnJvb20oIjAuNCIpKS5fcGlhbm9yb2xsKHtsYWJlbHM6MX0p" width="900" height="200"></iframe>
+</section>
+<section id="slide-org4f80cf5">
+<h3 id="org4f80cf5">Hydra</h3>
+<ul>
+<li>Visuals live coding</li>
+<li>js-basiert, Schnittstellen zu OSC, MIDI, Audio vorhanden</li>
+
+</ul>
+<iframe src="https://hydra.ojack.xyz/?code=JTJGJTJGJTIwbGljZW5zZWQlMjB3aXRoJTIwQ0MlMjBCWS1OQy1TQSUyMDQuMCUyMGh0dHBzJTNBJTJGJTJGY3JlYXRpdmVjb21tb25zLm9yZyUyRmxpY2Vuc2VzJTJGYnktbmMtc2ElMkY0LjAlMkYlMEElMkYlMkYlMjB0cnlpbmclMjB0byUyMGdldCUyMGNsb3NlciUwQSUyRiUyRiUyMGJ5JTIwUml0Y2hzZSUwQSUyRiUyRiUyMGluc3RhZ3JhbS5jb20lMkZyaXRjaHNlJTBBb3NjKDYwJTJDJTIwLTAuMDE1JTJDJTIwMC4zKSUwQSUwOS5kaWZmKG9zYyg2MCUyQyUyMDAuMDgpJTBBJTA5JTA5LnJvdGF0ZShNYXRoLlBJJTIwJTJGJTIwMikpJTBBJTA5Lm1vZHVsYXRlU2NhbGUobm9pc2UoMy41JTJDJTIwMC4yNSklMEElMDklMDkubW9kdWxhdGVTY2FsZShvc2MoMTUpJTBBJTA5JTA5JTA5LnJvdGF0ZSgoKSUyMCUzRCUzRSUyME1hdGguc2luKHRpbWUlMjAlMkYlMjAyKSkpJTJDJTIwMC42KSUwQSUwOS5jb2xvcigxJTJDJTIwMC41JTJDJTIwMC43MDgpJTBBJTA5LmNvbnRyYXN0KDEuNCklMEElMDkuYWRkKHNyYyhvMCklMEElMDklMDkubW9kdWxhdGUobzAlMkMlMjAuMDQpJTJDJTIwLjYpJTBBJTA5LmludmVydCgpJTBBJTA5LmJyaWdodG5lc3MoMC4xKSUwQSUwOS5jb250cmFzdCgxLjIpJTBBJTA5Lm1vZHVsYXRlU2NhbGUob3NjKDIpJTJDJTIwLTAuMiklMEElMDkub3V0KCklM0I%3D" width="900" height="400"></iframe>
+</section>
+</section>
+<section>
+<section id="slide-org115002a">
+<h2 id="org115002a">Gravitationswellen</h2>
+<div class="outline-text-2" id="text-org115002a">
+</div>
+</section>
+<section id="slide-org7e0d69d">
+<h3 id="org7e0d69d">Was?</h3>
+</section>
+<section id="slide-org26a28e6">
+<h3 id="org26a28e6">Wie wird daraus Musik?</h3>
+<ul>
+<li>Werbung: <a href="https://callitanythingrecords.bandcamp.com/album/ji-k-kan">Ji Kū Kan</a></li>
+
+</ul>
+</section>
+<section id="slide-org11f6d50">
+<h3 id="org11f6d50">let's do techno in 5 minutes!</h3>
+</section>
+</section>
+<section>
+<section id="slide-org2e55620">
+<h2 id="org2e55620">Links und Refs</h2>
+<ul>
+<li><a href="https://tidalcycles.org/">Tidal Cycles</a> (Prgrammiersprache Audio - haskell)</li>
+<li><a href="https://blog.toplap.org/">TOPLAP</a> (the home of live coding - Organisation)</li>
+<li><a href="https://algorave.com/">ALGORAVE</a> (Organisation)</li>
+<li><a href="https://hydra.ojack.xyz/">HYDRA</a> (Prgrammiersprache Visuals - js)</li>
+<li><a href="https://strudel.cc/">Strudel</a> (Programmiersprache Audio - js)</li>
+<li><a href="https://sonic-pi.net/">Sonic PI</a> (Programmiersprache Audio - ruby)</li>
+<li><a href="https://github.com/Qirky/FoxDot">Foxdot</a> (Programmiersprache Audio - python)</li>
+<li><a href="https://flok.cc">Flok</a> (kollaborative Umgebung für Strudel, Hydra, Tidal, etc.)</li>
+<li><a href="https://github.com/toplap/awesome-livecoding">viele Links</a></li>
 
 </ul>
 </section>
 </section>
 <section>
-<section id="slide-orgdb8139e">
-<h2 id="orgdb8139e">Gravitationswellen</h2>
-<div class="outline-text-2" id="text-orgdb8139e">
-</div>
-</section>
-<section id="slide-orgf64bf90">
-<h3 id="orgf64bf90">was?</h3>
-</section>
-<section id="slide-org06590d3">
-<h3 id="org06590d3">wie wird daraus Musik</h3>
-</section>
-<section id="slide-org283cd23">
-<h3 id="org283cd23">let's do techno in 5 minutes</h3>
+<section id="slide-org8e9e1e8">
+<h2 id="org8e9e1e8">Kontakt</h2>
+<ol>
+<li><a href="https://harte-echtzeit.com/">harte-echtzeit.com</a></li>
+<li><a href="https://sonomu.club/@harte_echtzeit">mastodon</a></li>
+<li><a href="https://github.com/harte-echtzeit">github</a></li>
+<li><a href="https://www.instagram.com/harte_echtzeit/">instagram</a></li>
+<li><a href="https://futur-aaa.com/">futur AAA festival</a></li>
+
+</ol>
 </section>
 </section>
 </div>
@@ -111,5 +213,7 @@ slideNumber:true
 });
 
 </script>
+<script src="https://unpkg.com/@strudel/embed@latest"></script>
+<script src="https://unpkg.com/hydra-synth"></script>
 </body>
 </html>
